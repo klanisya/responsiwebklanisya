@@ -1,23 +1,30 @@
 h1 {
-  color: #000;
+  color: #fd385d;
+  font-size: 2em;
 }
 
-#buat-janji {
-  margin-top: 30px;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 25px;
 }
 
-#simpanJadwal {
-  color: black; /* Warna teks hitam */
+th {
+  border: 1px solid #f3f3ff;
+  text-align: left;
+  padding: 8px;
+  color: #fd385d;
 }
 
-
-#appointment-form {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  /* border: 1px solid #000; */
+td {
+  border: 1px solid #f3f3ff;
+  text-align: left;
+  padding: 8px;
+  color: #f3f3f3;
 }
 
-label {
-  font-size: 0.6em;
+tr:nth-child(even) {
+  background-color: #fd385d;
+  color: #f3f3ff;
 }
