@@ -3,48 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jadwal Konsultasi</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="nav-left">
-          <a href="/" class="mindwell-logo-container">
-            <img
-              src="/assets/brain-ilus.png"
-              alt="MindWell-logo"
-              class="MindWell-logo"
-            />
-            <p class="logo-text">MindWell</p>
-          </a>
+    <div class="login-container">
+      <h1>Sign-In Admin</h1>
 
-          <div class="nav-link-container">
-            <a href="/buat-jadwal/index.html" class="nav-link">Buat Jadwal</a>
-            <a href="/jadwal-konsultasi/index.html" class="nav-link"
-              >Jadwal Konsultasi</a
-            >
-          </div>
-        </div>
+      <!-- <form action="" class="form-container">
+        <input type="text" placeholder="email" />
+        <input type="text" placeholder="password" />
 
-        <div class="login btn-login nav-right">
-          <a href="/login" class="nav-link">Login</a>
-        </div>
-      </nav>
-    </header>
+        <button class="btn-login" type="button" id="signInButton">
+          Sign-In
+        </button>
+      </form> -->
 
-    <h1>Jadwal Konsultasi</h1>
+      <form action="" class="form-container">
+        <input type="text" id="emailInput" placeholder="email" />
+        <input type="password" id="passwordInput" placeholder="password" />
+        <button type="button" class="btn-login" id="signInButton">
+          Sign-In
+        </button>
+      </form>
+    </div>
 
-    <table id="tablejadwal">
-      <tr>
-        <th>Nama</th>
-        <th>Nomor Telepon</th>
-        <th>Tanggal</th>
-        <th>Waktu</th>
-        <th>Keluhan</th>
-      </tr>
-    </table>
+    <script src="login.js"></script>
     <script src="../script.js"></script>
   </body>
 </html>
