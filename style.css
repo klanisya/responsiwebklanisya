@@ -1,42 +1,23 @@
 h1 {
-  color: #fd385d;
-  font-size: 2em;
+  color: #000;
 }
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  margin-top: 25px;
+#buat-janji {
+  margin-top: 30px;
 }
 
-td,
-th {
-  border: 1px solid #f3f3ff;
-  text-align: left;
-  padding: 8px;
-  color: #f3f3f3;
+#simpanJadwal {
+  color: black; /* Warna teks hitam */
 }
 
-tr:nth-child(even) {
-  background-color: #fd385d;
-  color: #f3f3ff;
+
+#appointment-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* border: 1px solid #000; */
 }
 
-/* Di file style.css atau admin/style.css */
-#adminContent {
-  display: none; /* Sembunyikan konten admin */
-}
-
-.logout {
-  background-color: #fd385d;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.logout:hover {
-  background-color: #ff5a79;
+label {
+  font-size: 0.6em;
 }
